@@ -4,7 +4,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 import math
 
-madelon_path = "data/Madelon/"
+madelon_path = "data/MADELON/"
 wilt_path = "data/wilt/"
 
 

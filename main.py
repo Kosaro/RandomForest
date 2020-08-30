@@ -111,7 +111,7 @@ def add_forest_table(domain, training_error, test_error):
 def plot_error(domain, training_error, test_error, title, add_table=None):
     """graph the training error and the test error over the depth of the domain"""
     plt.gcf().canvas.set_window_title(title)  # set window title
-    plt.title(title)  # set plot title
+    plt.title(title)  # set plot tithttp://localhost:8888/?token=232c66583c7593739f9d5a2fc5d97efdf4dc15a368fbada0le
     plt.plot(domain, training_error, label="Training Error")  # plot training error
     plt.plot(domain, test_error, label="Test Error")  # plot test error
     plt.xlabel("Tree Depth")  # set x label
